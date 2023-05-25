@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "projecteuler.net", "projecteuler.net\projecteuler.net.shproj", "{15F7A3FE-911C-41C4-8133-56F7CEF31281}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples of 3 or 5", "Multiples of 3 or 5\Multiples of 3 or 5.csproj", "{896D8C7F-A2A5-45C2-9FB7-384E175E65A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even Fibonacci numbers", "Even Fibonacci numbers\Even Fibonacci numbers.csproj", "{578B33CD-6A38-4A28-A670-7682E0D2593F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum square difference", "Sum square difference\Sum square difference.csproj", "{8A6C3C5A-BCCB-4CD6-8E11-B710FA8F2F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896D8C7F-A2A5-45C2-9FB7-384E175E65A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896D8C7F-A2A5-45C2-9FB7-384E175E65A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896D8C7F-A2A5-45C2-9FB7-384E175E65A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896D8C7F-A2A5-45C2-9FB7-384E175E65A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578B33CD-6A38-4A28-A670-7682E0D2593F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578B33CD-6A38-4A28-A670-7682E0D2593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578B33CD-6A38-4A28-A670-7682E0D2593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578B33CD-6A38-4A28-A670-7682E0D2593F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A6C3C5A-BCCB-4CD6-8E11-B710FA8F2F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A6C3C5A-BCCB-4CD6-8E11-B710FA8F2F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A6C3C5A-BCCB-4CD6-8E11-B710FA8F2F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A6C3C5A-BCCB-4CD6-8E11-B710FA8F2F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C492DE6-5097-44CB-8790-6A40682CE2DB}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		projecteuler.net\projecteuler.net.projitems*{15f7a3fe-911c-41c4-8133-56f7cef31281}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
