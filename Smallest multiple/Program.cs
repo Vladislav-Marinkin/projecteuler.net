@@ -4,25 +4,25 @@
     {
         static void Main(string[] args)
         {
-            long num = 2520;
-            bool flag = true;
+            long smallestMultiple = 2520;
+            bool isMultipleFound = false;
 
-            while (flag)
+            while (!isMultipleFound)
             {
-                num += 2520;
+                smallestMultiple += 2520;
 
                 for (int i = 11; i <= 20; i++)
                 {
-                    if (num % i != 0)
+                    if (smallestMultiple % i != 0)
                     {
-                        flag = true;
+                        isMultipleFound = false;
                         break;
                     }
-                    flag = false;
+                    isMultipleFound = true;
                 }
             }
 
-            Console.WriteLine(num);
+            Console.WriteLine(smallestMultiple);
         }
     }
 }
